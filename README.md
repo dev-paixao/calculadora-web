@@ -2,7 +2,7 @@
 
 Este é um projeto de uma calculadora web simples, desenvolvida com HTML, CSS e JavaScript. A calculadora oferece funcionalidades básicas de cálculo, além de recursos adicionais como botão de retrocesso e cálculo de porcentagem.
 
-![Calculadora Web](screenshot.png)
+![Calculadora Web](./img/screenshot.png)
 
 ## Funcionalidades
 
