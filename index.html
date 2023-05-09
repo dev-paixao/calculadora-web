@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="iniciarCalculadora()">
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <button onclick="">CE</button>
+        <button onclick="limparDisplay()">C</button>
+        <button onclick="retroceder()">&lt</button>
+        <button onclick="adicionarAoDisplay('/')" class="operation">&divide</button>
+        <button onclick="adicionarAoDisplay('7')">7</button>
+        <button onclick="adicionarAoDisplay('8')">8</button>
+        <button onclick="adicionarAoDisplay('9')">9</button>
+        <button onclick="adicionarAoDisplay('*')" class="operation">*</button>
+        <button onclick="adicionarAoDisplay('4')">4</button>
+        <button onclick="adicionarAoDisplay('5')">5</button>
+        <button onclick="adicionarAoDisplay('6')">6</button>
+        <button onclick="adicionarAoDisplay('-')" class="operation">-</button>
+        <button onclick="adicionarAoDisplay('1')">1</button>
+        <button onclick="adicionarAoDisplay('2')">2</button>
+        <button onclick="adicionarAoDisplay('3')">3</button>
+        <button onclick="adicionarAoDisplay('+')" class="operation">+</button>
+        <button onclick="adicionarPorcentagem()" class="operation">%</button>
+        <button onclick="adicionarAoDisplay('0')">0</button>
+        <button onclick="adicionarAoDisplay('.')">.</button>
+        <button onclick="calcular()" class="operation">=</button>
+        
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
