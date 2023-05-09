@@ -22,6 +22,10 @@ Este é um projeto de uma calculadora web simples, desenvolvida com HTML, CSS e 
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correções de bugs ou novas funcionalidades, fique à vontade para enviar um pull request.
 
+## Acesse o projeto
+
+## [Clique aqui](https://dev-paixao.github.io/pokedex/)
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
