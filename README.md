@@ -24,7 +24,7 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correç
 
 ## Acesse o projeto
 
-## [Clique aqui](https://dev-paixao.github.io/pokedex/)
+## [Clique aqui](https://dev-paixao.github.io/calculadora-web/)
 
 ## Licença
 
