@@ -4,10 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f1f1f1;
-}
-
-.calculadora {
-    width: 300px;
+  }
+  
+  .calculadora {
+    width: 40vw;
+    max-width: 400px; /* Adicionado para limitar a largura máxima */
+    height: auto; /* Alterado para altura automática */
     background-color: #f4f4f4;
     padding: 10px;
     border: 1px solid #ccc;
@@ -16,36 +18,42 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
-}
-
-.calculadora input {
+  }
+  
+  .calculadora input {
     grid-column: 1 / span 4;
     margin-bottom: 10px;
-    padding: 10px;
-    font-size: 24px;
+    padding: 3vw;
+    font-size: 50px;
     text-align: right;
     border: none;
     background-color: #fff;
-}
-
-.calculadora button {
+  }
+  
+  .calculadora button {
     padding: 10px;
     font-size: 24px;
     border-radius: 5px;
     border: none;
     background-color: #e0e0e0;
     cursor: pointer;
-}
-
-.calculadora button:hover {
+  }
+  
+  .calculadora button.operation.igual {
+    background-color: #444444;
+    color: #fff;
+  }
+  
+  .calculadora button:hover {
     background-color: #ccc;
-}
-
-.calculadora button.operation {
+  }
+  
+  .calculadora button.operation {
     background-color: #f5913e;
     color: #fff;
-}
-
-.calculadora button.operation:hover {
+  }
+  
+  .calculadora button.operation:hover {
     background-color: #ff7f00;
-}
+  }
+  
